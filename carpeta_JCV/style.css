@@ -2,13 +2,19 @@ body {
     background-color:lab(97.93% 0.01 -0.01);
     color   :  #0d0d0d;
 font-size : 12 px ; 
+    border: 10px solid black;
 
 }
 h1 {
-    color: red;
-    font-size: 1em;
-    background-color: aqua;
-    width: 200px ;
-    padding: 20px  ;
-    border-radius: 50px;
+
+    font-size: 4em;
+    border: 1px solid black;
+    border-left: 1px dotted red;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    text-align: center ;
+    width: 50% ;
+    height: 200px;
+    margin: 100px;
+    padding: 50px  ;
 }
